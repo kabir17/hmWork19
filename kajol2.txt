@@ -1,0 +1,15 @@
+package classNObject;
+
+public class CCard {
+	
+	String schoolNm = "PeopleNTesh";
+	int pmntInDollars = 500;
+	
+	public void citiBank() {
+		System.out.println("Alma paid on Monday");
+	}
+	public void chaseBank() {
+		System.out.println("Grupreet paid on Tuesday");
+	}
+
+}

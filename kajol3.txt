@@ -1,0 +1,23 @@
+package classNObject;
+  
+  public class TestCCard {
+
+     public static void main(String[] args){
+
+	//TestCCard testCCard = new TestCCard();  
+	//testCCard.display();
+	   
+	disPlay();    
+	CCard ccard = new CCard();
+	System.out.println(ccard.schoolName);     
+	System.out.println(ccard.pmntInDollars);
+	ccard.citiCard;     
+	ccard.chaseCard;
+     }	
+     public void disPlay(){     
+	System.out.println("This is within main method class");
+     }	
+     public static void disPlay(){     
+	System.out.println("This is within main method class");
+     }	
+  }
